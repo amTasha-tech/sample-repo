@@ -118,3 +118,53 @@ ul {
   background-color:#095cf7;
   color:#fff;
 }
+iframe{
+  max-width:30rem;
+  border-top:40px groove var(--primary-color);
+   border-bottom:40px groove var(--primary-color);
+     border-right:28px solid var(--secondary-color);
+     border-left:28px solid var(--secondary-color);
+}
+.stand-1{
+  height:90px;
+  width:6px;
+  background-color:var(--primary-color);
+  transform:rotate(40deg);
+  position:relative;
+  top:-14px;
+  left:200px;
+}
+.stand-2{
+  height:87px;
+  width:6px;
+  background-color:var(--secondary-color);
+  transform:rotate(-40deg);
+  position:relative;
+  top:-100px;
+  left:255px;
+}
+.about{
+position:relative;
+background:url("assets/images/jab-transformed.png") no-repeat top center/cover;
+height:600px;
+display:flex;
+align-items:center;
+justify-content: center;
+flex-direction: column;
+gap:1.5rem;
+margin:2rem,0;
+}
+.about h3{
+  font-size:3rem;
+  margin-bottom:-20px;
+}
+.about p{
+  font-size:1.5rem;
+}
+.about h3{
+  text-shadow:2px 2px 2px #333;
+}
+.about p{
+  text-shadow:2px 2px 2px #333;
+  font-size:1.8rem;
+}
